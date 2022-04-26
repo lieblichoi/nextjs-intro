@@ -1,3 +1,10 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
 .input {
     width: 200px;
     height: 50px;
@@ -13,44 +20,42 @@
     -o-transition: all .5s ease-out;
     transition: all .5s ease-out
 }
-/* .input:focus ~ .border {
-} */
 .btn {
-    /* display: block;
+    /* 
     width: 222px;
     height: 50px;
     line-height: 50px; 
     border-radius: 20px;
     border: none;
-    background-color: rgb(255, 56, 92);
-    margin: 30px 0;
+    
+    
     color: #fff;
     font-size: 15px;
     text-align:center; 
     transition: all 0.9s, color 0.3;
     cursor: pointer; */
-    width: 200px;
+    display: block;
+    background-color: rgb(255, 56, 92);
+    width: 222px;
     font-size: 16px;
     font-weight: 600;
+    margin: 40px 0;
     color: #fff;
     cursor: pointer;
-    margin: 20px;
     height: 55px;
     text-align:center;
     border: none;
     background-size: 300% 100%;
 
     border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
 .btn:hover {
-    /* box-shadow: 0 80px 0 0 rgba(0,0,2,0.1) inset, 
-                0 -80px 0 0 rgba(0,0,2,0.1) inset; */
+    box-shadow: 0 80px 0 0 rgba(0,0,2,0.1) inset, 
+                0 -80px 0 0 rgba(0,0,2,0.1) inset;
     background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -64,6 +69,53 @@
 }
 
 .title {
+    margin: 15px 5px;
+    font-weight: 500;
     font-size: 17px;
     color: #333333
+}
+.coupon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 70px;
+    border: 0.5px solid #9D9898;
+    border-radius: 10px;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 130px;
+    height: 70px;
+    background-color: #ff385c;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px; 
+}
+.desc {
+    font-size: 9px;
+    color: #999999;
+    margin-bottom: 17px;
+}
+.phonedesc {
+    margin: 0 0 15px 5px;
+    font-size: 12px;
+    color: #999999;
+}
+.code {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: -7px;
+}
+.sec {
+    display: flex;
+    margin: 10px 0;
 }
